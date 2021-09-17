@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Work Sans', sans-serif;
+font-weight: 300;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to top, #a54590, #085827);         
+}
+
+.calculator{
+    width: 450px;
+    border-radius: 20px;
+    background: #000;
+
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid #640e36;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 18px;
+
+}
+
+form .buttons {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 2px solid #42243c;
+    background: linear-gradient(#42243c, #00f);
+
+}
+
+input[type ="button"] :hover{
+    color: #fff;
+
+}
+
+input#clear{
+    background: #790707;
+    border: 1px solid #42243c;
+    color: #aaa
+}
+
+input#equal {
+    width: 100px;
+    margin: 10px 0 10px 0;
+    background: #02441c;
+    font-size: 35px;
+    border: 2px solid #000;
+    color: #aaa;
+}
